@@ -45,6 +45,10 @@ Rewrite and optimize the blog post provided.
 Requirements:
 - Sound completely human and natural.
 - Tone: ${tone}.
+- Avoid textbook tone.
+- Write like a real blogger.
+- Use personal sounding phrasing.
+- Vary sentence length aggressively.
 - Improve clarity and flow.
 - Add proper markdown headings (H1, H2, H3) where appropriate.
 - Include the keyword "${keyword || 'relevant keywords'}" naturally.
