@@ -30,10 +30,18 @@ Additional Requirements:
     } else if (mode === 'faq') {
       systemPrompt = `You are an SEO expert. Generate 5 relevant Frequently Asked Questions (FAQs) and their answers based on the provided text.
 Tone: ${tone}.
+Avoid textbook tone.
+Write like a real blogger.
+Use personal sounding phrasing.
+Vary sentence length aggressively.
 Format: Markdown.`;
     } else if (mode === 'meta') {
       systemPrompt = `You are an SEO expert. Generate an optimized Meta Title (max 60 chars) and Meta Description (max 160 chars) for the provided text.
 Tone: ${tone}.
+Avoid textbook tone.
+Write like a real blogger.
+Use personal sounding phrasing.
+Vary sentence length aggressively.
 Format:
 **Title**: [Title]
 **Description**: [Description]`;
